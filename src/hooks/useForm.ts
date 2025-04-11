@@ -18,10 +18,8 @@ export const useForm = (initialForm: any) => {
 	}
 
 	return {
-		formState,
+		...formState,
 		onInputChange,
 		onResetForm
 	}
 }
-
-

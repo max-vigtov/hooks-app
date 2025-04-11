@@ -1,5 +1,5 @@
 import { Hijo } from './Hijo'
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useState } from 'react';
 
 export const Padre = () => {
 
@@ -17,7 +17,6 @@ export const Padre = () => {
       [],
     )
     
-
     return (
         <div>
             <h1>Padre</h1>
