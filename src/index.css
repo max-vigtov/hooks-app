@@ -5,3 +5,7 @@ body {
 .container {
   background-color: #fff;
 }
+
+a {
+  margin-right: 5px;
+}
